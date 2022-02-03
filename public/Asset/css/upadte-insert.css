@@ -1,0 +1,79 @@
+.container{
+    height:79vh;
+    background-color:#064663;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container form{
+    background-color:#fff;
+    border-radius:20px;
+    width:90%;
+    height:95%;
+    box-sizing: border-box;
+    padding: 30px 50px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.input-placeholder{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.input-placeholder input, .input-placeholder textarea, .input-placeholder select{
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 0 10px;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius:5px;
+    height:30px;
+    resize: none;
+}
+
+#description{
+    height:80px;
+}
+
+#longdescription{
+    height:200px;
+}
+.input-placeholder p{
+    padding-bottom: 5px;
+}
+
+.input-placeholder.image input{
+    display:flex;
+    /* border: none;
+    border-radius:0; */
+    padding:3px 10px;
+    align-items:center;
+}
+
+.container form button{
+    padding: 5px 40px;
+    border-style: none;
+    background-color:#064663;
+    color:#fff;
+    border-radius:5px;
+}
+
+.error-box{
+    position: absolute;
+    transform: translateX(-50%);
+    top: 20px;
+    left: 50%;
+    background-color:rgb(233, 130, 130);
+    height: fit-content;
+    width: 700px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.checkbox-placeholder {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.checkbox-placeholder p{
+    padding-left: 10px;
+}

@@ -1,0 +1,67 @@
+body{
+    background-color:#041C32;
+    min-height:100vh;
+}
+
+.isi-content {
+    width:100%;
+    box-sizing: border-box;
+    padding: 50px;
+    background-color:#064663;
+}
+.judul{
+    color: white;
+}
+.judul h1{
+    font-weight:bolder;
+}
+
+.list-game{
+    display: grid;
+    grid-template-areas: "a a a a";
+    gap: 10px;
+    grid-auto-columns:auto;
+    /* grid-auto-rows: 300px; */
+    justify-items: center;
+    padding: 20px 0;
+    /* width: 100px; */
+}
+
+.kotak{
+    width:300px;
+}
+.kotak img{
+    width: 100%;
+}
+.containers-form{
+    padding: 10px 0;
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+}
+.containers-form form, .container-buttons{
+    width: 45%;
+}
+.container-buttons{
+    height:100%;
+    background-color:#fff;
+    padding: 10px 0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: 5px;
+}
+.container-buttons a{
+    color: black;
+}
+.container-buttons a:hover{
+    text-decoration: none;
+    background-color: transparent !important;
+}
+
+.containers-form form button{
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+    cursor:pointer;
+}

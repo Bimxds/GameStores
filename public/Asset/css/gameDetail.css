@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:#064663;
+}
+a{
+    text-decoration: none;
+}
+
+.content{
+    box-sizing: border-box;
+    padding:40px 40px;
+}
+.container{
+    width: 100%;
+    display:flex;
+    height: fit-content;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.container-left{
+    width: 68%;
+    height: 100%;
+}
+.container-right{
+    width: 30%;
+    height: fit-content;
+    color: white;
+}
+.container-left video{
+    width: 100%;
+    height: fit-content;
+}
+.container-right img{
+    width: 100%;
+    height: auto;
+}
+.details{
+    width: 50%;
+    display: flex;
+}
+
+.container-right h1{
+    font-size:40px;
+    padding: 20px 0;
+}
+
+.details h3, .details p, .container-right p{
+    font-size: 20px;
+    padding: 10px 0;
+}
+.details h3{
+    padding-right: 4px;
+}
+
+.content-2{
+    background-color:white;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.buy{
+    transform: translateX(-100%);
+    position: relative;
+    bottom: 30px;
+    left: 98%;
+    background-color:#041C32;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.buy button{
+    border-style: none;
+    cursor: pointer;
+    background-color:transparent;
+    font-size:25px;
+    color: white;
+}
+
+.title{
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+
+.game-description{
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.error-box{
+    position: absolute;
+    transform: translateX(-50%);
+    top: 20px;
+    left: 50%;
+    background-color:rgb(233, 130, 130);
+    height: fit-content;
+    width: 700px;
+    border-radius: 10px;
+    padding: 30px;
+}

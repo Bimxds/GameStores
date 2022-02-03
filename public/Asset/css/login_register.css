@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p, h1, h2{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #041C32;
+    display: flex;
+}
+
+.container-left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height:100%;
+}
+.container-right {
+    width: 50%;
+}
+.form-box{
+    width: 50%;
+    height:fit-content;
+}
+.form-box h1{
+    font-size: 45px;
+    padding-bottom: 50px;
+}
+
+
+.input-placeholder input{
+    box-sizing: border-box;
+    border-style: none;
+    padding-left:20px;
+    width: 100%;
+    height: 40px;
+    border-radius:10px;
+}
+
+.input-placeholder{
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.input-placeholder h2{
+    padding-bottom: 10px;
+}
+
+.input-placeholder select{
+    font-size: 20px;
+    border-style: none;
+    width: 100%;
+    height: 40px;
+    border-radius:10px;
+    padding-left: 20px;
+}
+.link {
+    padding-top:20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.link a{
+    color: white;
+    font-size: 20px;
+}
+
+.form-box form button{
+    border-style: none;
+    border-radius:10px;
+    background-color: #064663;
+    font-size:20px;
+    color: white;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.remember-me{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.remember-me input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border-radius:5px;
+    background-color: #eee;
+    margin-right: 20px;
+}
+
+.remember-me:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.remember-me input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+.checkmark:after {
+    content: "";
+    position: relative;
+    display: none;
+}
+
+.remember-me input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.remember-me .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+.remember-me p{
+    padding-left: 20px;
+}
+
+
+.error-box{
+    position: absolute;
+    transform: translateX(-50%);
+    top: 20px;
+    left: 50%;
+    background-color:rgb(233, 130, 130);
+    height: fit-content;
+    width: 700px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+
